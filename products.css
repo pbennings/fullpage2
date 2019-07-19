@@ -91,3 +91,8 @@ body {
   grid-column: 2 / 4;
   grid-row: 7 / 9;
 }
+
+.s1 {
+  background: url("img/20190223-CP2A3430-2.jpg");
+  background-size: cover;
+}
