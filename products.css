@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body, h1 {margin: 0}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.4em;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  height: auto;
+  margin: auto;
+}
+
+.p2 {
+  padding: 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+}
+
+.header > .logo > img {
+  width: 100px;
+}
+
+.header > .logo {
+  width: 30%;
+  margin-left: -35px;
+  margin-bottom: -55px;
+  z-index: 2;
+}
+
+/* .header > .main-nav > a {
+  margin: 20px;
+  color: rgb(43, 8, 8);
+  text-decoration: none;
+  font-size: 1.1em;
+} */
+
+/* Grid */
+
+.grid-item {
+  background-color: rgb(255, 255, 255);
+}
+
+.grid {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(220px, auto)
+}
+
+.grid-item > img {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-item_two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3; 
+}
+
+.grid-item_four {
+  grid-row: 3 / 5; 
+}
+
+.grid-item_eight {
+  grid-column: 3 / 4;
+  grid-row: 4 / 6; 
+}
+
+.grid-item_nine {
+  grid-column: 1 / 3;
+  grid-row: 5 / 7; 
+}
+
+.grid-item_twelve {
+  grid-column: 2 / 4;
+  grid-row: 7 / 9;
+}

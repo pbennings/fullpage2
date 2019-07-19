@@ -1,0 +1,40 @@
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  text-align: center;
+  color: white;
+}
+
+.s1 {
+  background: url("img/20190223-CP2A3430-2.jpg");
+  background-size: cover;
+}
+
+.s2 {
+  background: url("img/CP2A5646.jpg");
+  background-size: cover;
+}
+
+.s3 {
+  background: url("img/CP2A5883.jpg");
+  background-size: cover;
+}
+
+.s4 {
+  background: url("img/20180903-CP2A1443.jpg");
+  background-size: cover;
+}
+
+h1 {
+  text-align: left;
+  margin-left: 2em;
+  font-size: 2em;
+}
+
+span {
+  background: white !important;
+}
+
+.fp-slideNav .fp-bottom {
+  margin-left: 1em !important;
+}
+/*# sourceMappingURL=main.css.map */

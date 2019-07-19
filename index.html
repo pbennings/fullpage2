@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css">
+</head>
+<body>
+
+  
+  <div id="fullpage">
+    
+    <div class="section s1">
+
+      <div class="slide">
+        <!-- <h1>The first slide</h1> -->
+    </div>
+
+    <div class="slide">
+        <h1>The second slide</h1>
+    </div>
+
+    <div class="slide">
+        <h1>The third slide</h1>
+    </div>
+
+  </div>
+    
+    <div class="section s2">
+      <!-- <h1>The Second Section</h1> -->
+    </div>
+    
+    <div class="section s3">
+      <!-- <h1>The Third Section</h1> -->
+    </div>
+
+    <div class="section s4">
+      <!-- <h1>The Third Section</h1> -->
+    </div>
+    
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.js"></script>
+
+  <script>
+  
+    new fullpage('#fullpage', {
+      autoScrolling: true,
+      navigation: true,
+      anchors: ['section1', 'section2', 'section3', 'section4'],
+      navigationTooltips: ['Home', 'Products', 'Contact', 'Members'],
+      showActiveTooltip: true,
+      scrollingSpeed: 1000,
+      controlArrows: false,
+      // slidesNavigation: true
+    })
+  
+  </script>
+  
+</body>
+</html>
