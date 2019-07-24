@@ -10,6 +10,7 @@ h1 {
 }
 
 .s2 {
+  background-size: 500px!important;
   background: url("img/20190302-CP2A4272.jpg");
   background-size: cover;
 }
